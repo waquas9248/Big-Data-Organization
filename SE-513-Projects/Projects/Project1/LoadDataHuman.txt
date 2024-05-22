@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS Human;
+CREATE TABLE Human(
+        ImageID VARCHAR(100),
+        Source VARCHAR(25),
+        LabelName VARCHAR(50),
+        Confidence VARCHAR(10),
+        PRIMARY KEY (LabelName)
+);
+
+LOAD DATA LOCAL INFILE '/home/nate600/SqlStuff/human-imagelabels.csv'
+INTO TABLE Human
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(ImageID, Source, LabelName, Confidence);
