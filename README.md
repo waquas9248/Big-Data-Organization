@@ -1,1 +1,1 @@
-# ImageClassification-BigData-OpenAI
+# ImageClassification-BigData-Open Images
