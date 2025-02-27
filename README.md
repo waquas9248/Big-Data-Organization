@@ -1,1 +1,1 @@
-# ImageClassification-BigData-Open Images
+# Image Classification on Open Images dataset
