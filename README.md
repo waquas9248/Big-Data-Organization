@@ -1,9 +1,5 @@
 # Image Classification on Open Images dataset
 
-![image](https://github.com/user-attachments/assets/26871325-aa47-4839-a721-e3ed81c158aa)
-
-![image](https://github.com/user-attachments/assets/0a3fe590-d6e2-4473-93f4-6291a3933ca0)
-
 ![image](https://github.com/user-attachments/assets/7823efac-d70c-4a7e-8cbb-04259787f0ca)
 
 ![image](https://github.com/user-attachments/assets/d6ef688c-a0b0-4460-ae0c-e8bee4f36708)
