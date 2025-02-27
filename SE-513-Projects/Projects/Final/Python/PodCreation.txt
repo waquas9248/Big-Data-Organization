@@ -1,23 +1,0 @@
-nate600@cloudshell:docker build -t gcr.io/se-413-375302/imageprocessor                                                                                                      
-nate600@cloudshell:docker push gcr.io/se-413-375302/imageprocessorf1bd53d857d8: Pushing [==================================================>]  563.5MB[4B[4A[2Kf1bd53d857d8: Pushed 
-nate600@cloudshell:kubectl create -f pod.yamlpod/processor-pod created
-nate600@cloudshell:kubectl logs -f processor-pod2023/04/23 18:50:03.433359 Start gcsfuse/0.42.3 (Go version go1.19.5) for app "" using mount point: /mnt/Google
-/usr/local/lib64/python3.9/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator MiniBatchKMeans from version 1.2.1 when using version 1.2.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
-https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
-  warnings.warn(
-0
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-nate600@cloudshell:kubectl get pods
-NAME            READY   STATUS    RESTARTS   AGE
-processor-pod   1/1     Running   0          41s

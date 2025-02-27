@@ -1,0 +1,5 @@
+/home/nate600/SqlStuff/class-descriptions.csv
+/home/nate600/SqlStuff/human-imagelabels.csv
+/home/nate600/SqlStuff/machine-imagelabels.csv
+
+root password: rootuser

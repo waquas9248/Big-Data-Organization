@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: processor-pod
+spec:
+  containers:
+    - name: imageprocess-container
+      image: gcr.io/se-413-375302/imageprocessor
+      command: ['sh', '-c']
+      args: ['gcsfuse --implicit-dirs schooldataset /mnt/Google; python3 -u /app/classification.py']
+      securityContext:
+        privileged: true
+        capabilities:
+          add:
+            - SYS_ADMIN
